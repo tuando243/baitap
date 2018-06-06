@@ -8,7 +8,7 @@
 
 using namespace std;
 
-string brackets = "(())(())))()";
+string brackets;
 stack<char> bracketStack;
 int status[200] = {0};
 int count = 0;
